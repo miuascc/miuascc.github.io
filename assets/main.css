@@ -13,7 +13,7 @@ nav{
     height: 17vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 1;
-
+    margin: 0;
 }
 
 
@@ -30,7 +30,7 @@ nav{
     float: left;
     display: block;
     position: relative;
-    height: 16vh;  
+    height: 15vh;  
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -254,6 +254,9 @@ a:hover {
   position: relative;
   display: inline-block;
 }
+.show {
+  display:block;
+}
 
 .dropdown-content {
   display: none;
@@ -268,9 +271,6 @@ a:hover {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 .dropdown-content-img {
   width: 40vw;
   height: auto;
@@ -314,4 +314,3 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
-
