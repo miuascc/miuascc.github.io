@@ -272,8 +272,7 @@ a:hover {
 }
 
 .dropdown-content-img {
-  width: 40vw;
-  height: auto;
+  height: 40vh;
   z-index: 1;
 }
 .column {
