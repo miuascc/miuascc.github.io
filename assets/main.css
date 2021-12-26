@@ -27,11 +27,12 @@ nav{
     margin-right: 20px;
 }
 .navlogo{
-    float: left;
-    display: block;
+    left: 0;
+    display: inline-block;
     position: relative;
     height: 15vh;
     image-rendering: optimizeQuality;
+    image-rendering: crisp-edges;
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
